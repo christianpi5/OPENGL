@@ -1,0 +1,18 @@
+
+        if (pra_cima > 0.95f) {
+            pra_cima = 0.95;
+            estado = PARADO;
+        }
+        if (pra_cima < -0.95f ) {
+            pra_cima = -0.95f;
+            estado = PARADO;
+        }
+        if (aside > 0.95) {
+            aside = 0.95;
+            estado = PARADO;
+        }
+        if (aside < -0.95) {
+            aside = -0.95;
+            estado = PARADO;
+        }
+        */
